@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    primary:
+      url: jdbc:postgresql://222.111.111.11:5432/atlprd_rw_app?currentSchema=admin1
+      connectionTimeout: 10000
+      maxLifetime: 18000000
+      maximumPoolSize: 10
+      username: admin
+      password: admin
+    secondary:
+      dataSourceClassName: org.postgresql.ds.PGSimpleDataSource
+      driverClassName: org.postgresql.Driver
+      url: jdbc:postgresql://111.111.22.111:5432/atlprd_rw_app?currentSchema=admin2
+      connectionTimeout: 10000
+      maxLifetime: 18000000
+      maximumPoolSize: 10
+      username: admin
+      password: admin
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true

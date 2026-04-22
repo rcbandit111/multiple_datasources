@@ -1,0 +1,10 @@
+com\example\demo\DemoApplication.class
+com\example\demo\secondary\entity\UserSecondary.class
+com\example\demo\config\SecondaryConfig.class
+com\example\demo\secondary\repo\UserSecondaryRepo.class
+com\example\demo\config\PrimaryConfig.class
+com\example\demo\primary\entity\UserPrimary.class
+com\example\demo\config\TxPrimary.class
+com\example\demo\config\TxSecond.class
+com\example\demo\primary\repo\UserPrimaryRepo.class
+com\example\demo\web\TestController.class
