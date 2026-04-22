@@ -2,20 +2,20 @@ spring:
   datasource:
     primary:
       dataSourceClassName: org.postgresql.ds.PGSimpleDataSource
-      url: jdbc:postgresql://11.11.11.11:5432/atlprd_rw_app?currentSchema=db1
+      url: jdbc:postgresql://38.19.198.159:5432/atlprd_rw_app?currentSchema=marcat
       connectionTimeout: 10000
       maxLifetime: 18000000
       maximumPoolSize: 10
       username: admin
-      password: admin
+      password: 4r3e2w1q!Q!Q1221
     secondary:
       dataSourceClassName: org.postgresql.ds.PGSimpleDataSource
-      url: jdbc:postgresql://11.11.11.11:5432/atlprd_rw_app?currentSchema=db2
+      url: jdbc:postgresql://38.19.198.159:5432/atlprd_rw_app?currentSchema=marcatprod
       connectionTimeout: 10000
       maxLifetime: 18000000
       maximumPoolSize: 10
       username: admin
-      password: admin
+      password: 4r3e2w1q!Q!Q1221
   jpa:
     hibernate:
       ddl-auto: none
